@@ -95,7 +95,7 @@ export default function LoginScreen({ navigation }: Props) {
               New to Husk & Ember?{" "}
             </Text>
             <Pressable onPress={() => navigation.replace("Register")} hitSlop={8}>
-              <Text style={{ fontFamily: fonts.bodySemi }} className="text-ember text-sm">
+              <Text style={{ fontFamily: fonts.bodyMedium }} className="text-ember text-sm">
                 Create account
               </Text>
             </Pressable>

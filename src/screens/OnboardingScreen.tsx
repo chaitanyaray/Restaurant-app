@@ -82,7 +82,7 @@ export default function OnboardingScreen({ navigation }: Props) {
               <Ionicons name={item.icon} size={40} color="#D9663B" />
             </View>
             <Text
-              style={{ fontFamily: fonts.bodySemi }}
+              style={{ fontFamily: fonts.bodyMedium }}
               className="text-ember text-xs tracking-[3px] uppercase mb-4"
             >
               {item.eyebrow}
@@ -108,9 +108,8 @@ export default function OnboardingScreen({ navigation }: Props) {
           {SLIDES.map((s, i) => (
             <View
               key={s.key}
-              className={`h-1 rounded-full ${
-                i === index ? "bg-ember flex-1" : "bg-line w-6"
-              }`}
+              className={`h-1 rounded-full ${i === index ? "bg-ember flex-1" : "bg-line w-6"
+                }`}
             />
           ))}
         </View>
@@ -119,7 +118,7 @@ export default function OnboardingScreen({ navigation }: Props) {
           onPress={next}
           className="bg-espresso rounded-full py-4 flex-row items-center justify-center active:opacity-80"
         >
-          <Text style={{ fontFamily: fonts.bodySemi }} className="text-husk text-base mr-2">
+          <Text style={{ fontFamily: fonts.bodyMedium }} className="text-husk text-base mr-2">
             {index === SLIDES.length - 1 ? "Get started" : "Next"}
           </Text>
           <Ionicons name="arrow-forward" size={18} color="#FBF3E7" />

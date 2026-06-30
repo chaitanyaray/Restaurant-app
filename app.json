@@ -21,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#241A13"
-      }
+      },
+      "package": "com.chaitanyaray.restaurantapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
